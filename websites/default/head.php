@@ -2,7 +2,8 @@
 <!-- Template file for loadinf the top of the website layout and opening tags-->
 <html lang = "en">
 	<head>
-		<link rel="stylesheet" href="styles.css"/>
+		<link rel="stylesheet" href="../styles.css"/>
+		
 		<!--This variable is so each page can have a unique title, makes navigation easier -->
 		<title>
 			<?php echo $title ?>
@@ -12,6 +13,6 @@
 		<header>
 			<!--Used to generate the top banner above the Nav bar-->
 			<section>
-				<h1>Northampton News</h1>
+				<h1>Fotheby's</h1>
 			</section>
 		</header>
