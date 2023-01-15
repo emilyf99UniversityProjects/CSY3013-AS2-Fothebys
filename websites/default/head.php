@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<!-- Template file for loadinf the top of the website layout and opening tags-->
 <html lang = "en">
 	<head>
-		<link rel="stylesheet" href="../styles.css"/>
-		
-		<!--This variable is so each page can have a unique title, makes navigation easier -->
+		<link rel="stylesheet" href="../style.css"/>
 		<title>
 			<?php echo $title ?>
 		</title>
