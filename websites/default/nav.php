@@ -4,8 +4,8 @@
 ?>
 <nav>
 	<ul>
-		<li><a href="index.php">Latest Articles</a></li>
-		<li><a href="#">Select Category</a>
+		<li><a href="index.php">Auction E-Catalogue</a></li>
+		<li><a href="#">Search By Category</a>
 			<ul>
 				<?php 
 					// below selects all values from the category table, this is achieved by a foreach loop
@@ -14,6 +14,19 @@
 						/*after a category is selected, the name is pulled out and added to the href to create a new page for that category
 						the second use of the name is to give a clickable link to the user*/
 						echo '<li><a class="articleLink" href="categoryPages.php?categoryId=' . $row['name'] . '">' . $row['name'] .'</a></li>';
+					}
+				?>
+			</ul>
+
+		<li><a href="#">Search By Location</a>
+			<ul>
+				<?php 
+					// below selects all values from the category table, this is achieved by a foreach loop
+					$results = $pdo->query('SELECT * FROM locations');
+					foreach ($results as $row) {
+						/*after a category is selected, the name is pulled out and added to the href to create a new page for that category
+						the second use of the name is to give a clickable link to the user*/
+						echo '<li><a class="articleLink" href="locationPages.php?locationId=' . $row['name'] . '">' . $row['name'] .'</a></li>';
 					}
 				?>
 			</ul>
@@ -34,7 +47,7 @@
 				if(isset($_SESSION['adminloggedin'])){
 					echo '<li><a class="articleLink" href="logout.php">Log Out</a></li>';
 					echo '<li><a class="articleLink" href="adminArticles.php"> Admin Hub</a></li>';
-					echo '<li>Welcome Back Admin</li>';
+					echo '<li>Welcome Back Staff</li>';
 				} 
 			?>
 	</ul>
