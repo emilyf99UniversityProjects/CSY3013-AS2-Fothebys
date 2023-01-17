@@ -34,9 +34,9 @@ header:before { background-image: url(back.png);
 
 
 header > h2 {
-margin-top: 14vw;
-    width: 100%;
-    display: block;
+margin-top: 8vw;
+width: 100%;
+display: block;
 text-shadow: 2px 2px 2px #000; color: white; font-size: 3em; margin-left: 20%; transform: rotate(10deg); padding-bottom: 0;}
 
 header nav { transform: rotate(10deg);  padding-left: 20%; color: white; width: 100%; display: block;}
@@ -47,7 +47,9 @@ header a {color: white; text-decoration: none;}
 
 header nav > ul {
   font-size: 12pt;
-      transform-origin: top left;
+  transform-origin: top left;
+  border-left: #23212C 5px;
+  border-right: #23212C 5px;
 
 transform: scaleZ(10) scale(0) rotate(-6deg);
   overflow: hidden;
@@ -56,8 +58,9 @@ transform: scaleZ(10) scale(0) rotate(-6deg);
 
 transition: transform 0.3s ease-in;
 position: absolute;
-background-color: #333;
+background-color: #ffff;
 margin-top: -10px;
+border-color: #23212C 2px;
 
 z-index: 999;
 

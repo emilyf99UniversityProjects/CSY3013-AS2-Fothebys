@@ -5,8 +5,9 @@
 		<li><a href="adminArticles.php">Manage Lots</a></li>
 		<li><a href="adminCategories.php">Manage Categories</a></li>
 		<li><a href="manageAdmin.php">Manage Staff Accounts</a></li>
-		<li><a href="">Manage Sales (Coming Soon)</a></li>
-		<li><a href="">Manage User Accounts (Coming Soon)</a></li>
+		<li><a href="manageSales.php">Manage Sales</a></li>
+		<li><a href="manageUsers.php">Manage User Accounts</a></li>
+		<li><a href="manageUsersRequests.php">Manage User Account Requests(Coming Soon)</a></li>
 		<li><a href="logout.php">Log Out</a></li>
 	</ul>
 </nav>

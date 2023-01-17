@@ -6,7 +6,7 @@ adminpass: AdminTestTest
 nonadminuser: TestHash@example.com
 nonadminpassword: TestHash
 
-add adding sales info
-add customer database 
 customers can login and see what they've bought and their details
-add location serach
+customers can request an account
+swap some for drop downs 
+booking seats request

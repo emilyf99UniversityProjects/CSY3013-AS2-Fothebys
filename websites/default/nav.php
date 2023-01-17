@@ -39,6 +39,7 @@
 				The welcome message is added so the user can see when they are logged in while viewing the sites*/
 				if(isset($_SESSION['loggedin']))  {
 					echo '<li><a class="articleLink" href="logout.php">Log Out</a></li>';
+					echo '<li><a class="articleLink" href="userHub.php">User Hub</a></li>';
 					echo '<li>Welcome Back</li>';
 				}
 				/*If a admin is logged the following is created, a log out feature, the Admin Hub and a welcome message.
