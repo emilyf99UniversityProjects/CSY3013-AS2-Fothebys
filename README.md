@@ -1,5 +1,5 @@
 # CSY3013 AS2-Fothebys Art Auction Site
-
+![image](https://github.com/emilyf99UniversityProjects/CSY3013-AS2-Fothebys/assets/72047699/7a7b69f0-439b-4bd2-bd19-7d0c9116f1ef)
 
 ## Skills Used
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -25,11 +25,16 @@ Fotheby’s currently employ a clerical inventory system for all auction-related
 In the current system, all auction items are currently classified into five categories; these are paintings, drawings, photographic images, sculptures and carvings. These are the only categories of art that the auction house currently sells on behalf of its customer base. Again, this is seen as a significant limitation by some of the current and potential company clients. 
 
 ## Features Implemented
-
-![image](https://github.com/emilyf99UniversityProjects/CSY3013-AS2-Fothebys/assets/72047699/00a7526a-8730-45a2-b5bf-6ec243a67b8f)
-![image](https://github.com/emilyf99UniversityProjects/CSY3013-AS2-Fothebys/assets/72047699/4dc8ec34-fdec-4bc7-8755-f13b2b5e76d6)
-![image](https://github.com/emilyf99UniversityProjects/CSY3013-AS2-Fothebys/assets/72047699/36822930-0c3a-4b8d-8916-c39562d904cb)
-![image](https://github.com/emilyf99UniversityProjects/CSY3013-AS2-Fothebys/assets/72047699/312e1643-cc72-40bb-b9e9-b459a8d0003d)
-
+![image](https://github.com/emilyf99UniversityProjects/CSY3013-AS2-Fothebys/assets/72047699/b26cfb3d-2124-4f20-8274-0a30d242d39e)
+![image](https://github.com/emilyf99UniversityProjects/CSY3013-AS2-Fothebys/assets/72047699/513977b3-6c7f-4596-b130-57b748b83d6c)
+![image](https://github.com/emilyf99UniversityProjects/CSY3013-AS2-Fothebys/assets/72047699/ba2378f5-a19a-427d-a85a-81f9d182cc15)
+![image](https://github.com/emilyf99UniversityProjects/CSY3013-AS2-Fothebys/assets/72047699/e99bc7b6-4b81-4882-bd24-e39ad5aabea7)
 
 ## Other Screenshots
+
+### Main Hub With Admin Login 
+![image](https://github.com/emilyf99UniversityProjects/CSY3013-AS2-Fothebys/assets/72047699/aff5add1-fc02-4e72-84fe-8ca6c8edd3d3)
+
+### Admin Hub Options
+![image](https://github.com/emilyf99UniversityProjects/CSY3013-AS2-Fothebys/assets/72047699/5532a8cb-3df9-4374-b3b1-70ab30f5aa14)
+
